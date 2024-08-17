@@ -13,7 +13,7 @@ public class Shooting : MonoBehaviour
     public LayerMask groundMask;
     private Vector3 shootingDirection;
 
-    public float shootingRate = 0.15f;
+    public static float shootingRate = 0.15f;
     private float shootingTimer = -1f;
     public Camera mainCam;
 

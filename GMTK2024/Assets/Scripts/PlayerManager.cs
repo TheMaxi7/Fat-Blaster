@@ -8,6 +8,8 @@ public class PlayerManager : MonoBehaviour
 
     public float playerFat;
     public float basicFatLoss;
+    public float speedMovement = 10;
+
     private void Awake()
     {
         if (instance == null)
@@ -42,6 +44,30 @@ public class PlayerManager : MonoBehaviour
         {
             GameManager.instance.GameOver();
         }
+    }
+
+    public void IncreaseSpeed()
+    {
+        StartCoroutine(BoostSpeed());
+    }
+
+    public IEnumerator BoostSpeed()
+    {
+        instance.speedMovement += 10f;
+        yield return new WaitForSeconds(15f);
+        instance.speedMovement -= 10f;
+    }
+
+    public void IncreaseFireRate()
+    {
+        StartCoroutine(BoostFireRate());
+    }
+
+    public IEnumerator BoostFireRate()
+    {
+        Shooting.shootingRate /= 2;
+        yield return new WaitForSeconds(15f);
+        Shooting.shootingRate *= 2;
     }
 
 }
