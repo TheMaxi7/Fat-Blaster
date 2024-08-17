@@ -10,24 +10,28 @@ public class Shooting : MonoBehaviour
 {
     public Transform gunHolder;
     public Bullet bullet;
-    private Camera mainCam;
     public LayerMask groundMask;
     private Vector3 shootingDirection;
 
     public float shootingRate = 0.15f;
     private float shootingTimer = -1f;
+    public Camera mainCam;
 
     void Start()
     {
-        mainCam = Camera.main;
+
     }
     void Update()
     {
-        Aim();
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (GameManager.instance.gameOver == false)
         {
-            Shoot();
+            Aim();
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                Shoot();
+            }
         }
+
     }
 
     void Shoot()
@@ -60,7 +64,7 @@ public class Shooting : MonoBehaviour
         if (success)
         {
             shootingDirection = position - transform.position;
-            shootingDirection.y = 0.5f;
+            shootingDirection.y = 0.2f;
             transform.forward = shootingDirection;
         }
     }

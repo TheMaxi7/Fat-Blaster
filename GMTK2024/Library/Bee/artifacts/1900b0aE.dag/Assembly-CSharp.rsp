@@ -368,8 +368,11 @@
 "Assets/Scripts/CharacterMovement.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/Shooting.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/Scripts/UiManager.cs"
 -langversion:9.0
 
 /deterministic

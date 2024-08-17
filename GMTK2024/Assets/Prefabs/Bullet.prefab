@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootingSpeed: 1
   bulletRb: {fileID: 4353198908898395931}
+  damage: 5
 --- !u!54 &4353198908898395931
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -137,7 +138,7 @@ Rigidbody:
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 128

@@ -7,7 +7,7 @@ public class Enemy : ScriptableObject
 {
     public string enemyName;
     public float enemyHealth;
-    public float fatValue;
+    public float fat;
     public float moveSpeed;
     public GameObject model;
 }
