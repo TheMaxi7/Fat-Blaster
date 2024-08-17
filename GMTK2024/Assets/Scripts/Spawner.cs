@@ -24,7 +24,6 @@ public class Spawner : MonoBehaviour
             SpawnEnemy();
             timer = spawnTime;
         }
-        Debug.Log(timer);
 
     }
 
