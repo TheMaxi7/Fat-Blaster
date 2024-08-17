@@ -15,4 +15,5 @@ MonoBehaviour:
   powerUpName: Cabbage
   Icon: {fileID: 0}
   rarity: 25
+  model: {fileID: 1778297118631002472, guid: 76f9c64f61eed25438d2a35c9acee5df, type: 3}
   bonusType: 1

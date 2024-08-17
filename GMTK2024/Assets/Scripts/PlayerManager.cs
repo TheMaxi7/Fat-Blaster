@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public float playerFat;
     public float basicFatLoss;
     public float speedMovement = 10;
+    private float loseFatTimer = 5;
 
     private void Awake()
     {
@@ -26,6 +27,7 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         CheckFatCondition();
+        LoseFat();
     }
 
     public void IncreaseFat(float fat)
@@ -68,6 +70,19 @@ public class PlayerManager : MonoBehaviour
         Shooting.shootingRate /= 2;
         yield return new WaitForSeconds(15f);
         Shooting.shootingRate *= 2;
+    }
+
+    private void LoseFat()
+    {
+        if (playerFat > 100)
+        {
+            loseFatTimer -= Time.deltaTime;
+            if (loseFatTimer <= 0)
+            {
+                playerFat -= basicFatLoss;
+                loseFatTimer = 5;
+            }
+        }
     }
 
 }

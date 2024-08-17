@@ -371,6 +371,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PickUp.cs"
 "Assets/Scripts/PickUpController.cs"
+"Assets/Scripts/PickUpsSpawning.cs"
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/Shooting.cs"
 "Assets/Scripts/Spawner.cs"
