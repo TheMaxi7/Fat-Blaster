@@ -11,22 +11,26 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         enemyHealth = enemy.enemyHealth;
-        target = GameObject.Find("Player").transform;
+        target = GameObject.Find("Target").transform;
     }
 
     void Update()
     {
 
         float distance = Vector3.Distance(transform.position, target.position);
-        transform.LookAt(target.position);
+        Vector3 zeroedYTarget = new Vector3(target.position.x, 0.5f, target.position.z);
+        transform.LookAt(zeroedYTarget);
         if (distance > 0.1)
             transform.position += transform.forward * enemy.moveSpeed * Time.deltaTime;
-        else
+
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.layer == 7)
         {
             PlayerManager.instance.IncreaseFat(enemy.fat);
             Destroy(gameObject);
         }
-
     }
 
     public void TakeDamage(float damage)

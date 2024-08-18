@@ -8,11 +8,12 @@ using UnityEngine.UIElements;
 
 public class Shooting : MonoBehaviour
 {
-    public Transform gunHolder;
+    public Transform[] muzzles;
     public Bullet bullet;
     public LayerMask groundMask;
     private Vector3 shootingDirection;
-
+    private Vector3 shootingDirectionMuzzle1;
+    private Vector3 shootingDirectionMuzzle2;
     public static float shootingRate = 0.15f;
     private float shootingTimer = -1f;
     public Camera mainCam;
@@ -39,8 +40,11 @@ public class Shooting : MonoBehaviour
         if (Time.time > shootingTimer)
         {
             shootingTimer = Time.time + shootingRate;
-            Bullet bulletIstantiated = Instantiate(bullet, gunHolder.transform.position, Quaternion.identity);
-            bulletIstantiated.bulletRb.AddForce(shootingDirection * bullet.shootingSpeed, ForceMode.Impulse);
+
+            Bullet bulletIstantiated1 = Instantiate(bullet, muzzles[0].transform.position, Quaternion.identity);
+            bulletIstantiated1.bulletRb.AddForce(shootingDirectionMuzzle1 * bullet.shootingSpeed, ForceMode.Impulse);
+            Bullet bulletIstantiated2 = Instantiate(bullet, muzzles[1].transform.position, Quaternion.identity);
+            bulletIstantiated2.bulletRb.AddForce(shootingDirectionMuzzle2 * bullet.shootingSpeed, ForceMode.Impulse);
         }
 
     }
@@ -64,8 +68,12 @@ public class Shooting : MonoBehaviour
         if (success)
         {
             shootingDirection = position - transform.position;
-            shootingDirection.y = 0.2f;
+            shootingDirection.y = -2f;
             transform.forward = shootingDirection;
+            shootingDirectionMuzzle1 = position - muzzles[0].transform.position;
+            shootingDirectionMuzzle2 = position - muzzles[1].transform.position;
+            shootingDirectionMuzzle1.y = -2f;
+            shootingDirectionMuzzle2.y = -2f;
         }
     }
 }

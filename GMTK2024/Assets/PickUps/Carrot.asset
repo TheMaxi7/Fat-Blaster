@@ -15,5 +15,5 @@ MonoBehaviour:
   powerUpName: Carrot
   Icon: {fileID: 0}
   rarity: 25
-  model: {fileID: 7054512581634561007, guid: 78aac66418f93ad4faed27b7bb79d713, type: 3}
+  model: {fileID: 4333536560383591219, guid: 7fad5576958c1aa478acbdb42176a4c9, type: 3}
   bonusType: 0

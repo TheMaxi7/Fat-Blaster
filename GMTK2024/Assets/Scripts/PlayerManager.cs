@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
     public float speedMovement = 10;
     private float loseFatTimer = 5;
 
+
     private void Awake()
     {
         if (instance == null)
@@ -42,7 +43,7 @@ public class PlayerManager : MonoBehaviour
 
     void CheckFatCondition()
     {
-        if (playerFat >= 300)
+        if (playerFat >= 400)
         {
             GameManager.instance.GameOver();
         }

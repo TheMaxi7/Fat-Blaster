@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,6 +9,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool gameOver = false;
+    public float bossTimer = 300;
+    public GameObject boss;
+    public Transform bossSpawnTransform;
     private void Awake()
     {
         if (instance == null)
@@ -21,6 +25,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        bossTimer -= Time.deltaTime;
+        if (bossTimer <= 0)
+        {
+            SpawnBoss();
+        }
+    }
     public void GameOver()
     {
         Time.timeScale = 0;
@@ -33,5 +45,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         PlayerManager.instance.playerFat = 200;
         SceneManager.LoadScene("Main");
+    }
+
+    void SpawnBoss()
+    {
+        Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
     }
 }

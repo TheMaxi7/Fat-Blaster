@@ -11,13 +11,13 @@ public class PickUpController : MonoBehaviour
     private type pickUpType;
     void Start()
     {
-        target = GameObject.Find("Player").transform;
+        target = GameObject.Find("Target").transform;
         pickUpType = pickUp.bonusType;
     }
-    void Update()
+
+    void OnCollisionEnter(Collision collision)
     {
-        float distance = Vector3.Distance(transform.position, target.position);
-        if (distance < 0.5)
+        if (collision.gameObject.layer == 7)
         {
             switch (pickUpType)
             {
@@ -39,7 +39,6 @@ public class PickUpController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     public void IncreaseSpeed()
     {
         Debug.Log("preso carota");
