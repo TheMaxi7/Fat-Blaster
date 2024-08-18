@@ -31,7 +31,8 @@ public class Spawner : MonoBehaviour
     {
         GameObject enemyToSpawn = SelectEnemy();
         enemyToSpawn.GetComponent<EnemyController>().enemy = enemiesList[indexEnemyToSpawn];
-        Instantiate(enemyToSpawn, transform.position, Quaternion.identity);
+        var spawnedEnemy = Instantiate(enemyToSpawn, transform.position, Quaternion.identity);
+        spawnedEnemy.GetComponent<EnemyController>().enemyMesh = spawnedEnemy.GetComponent<MeshRenderer>();
     }
 
     public GameObject SelectEnemy()

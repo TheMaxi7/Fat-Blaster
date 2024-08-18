@@ -108,14 +108,14 @@ Rigidbody:
     m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 264
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &2044939550059052418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
   enemyHealth: 0
+  damageColor: {r: 1, g: 0.1726007, b: 0, a: 0.57254905}
 --- !u!64 &-6292807608362365688
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -143,7 +144,7 @@ MeshCollider:
     m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 264
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
