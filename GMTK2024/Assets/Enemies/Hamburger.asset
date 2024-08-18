@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hamburger
   m_EditorClassIdentifier: 
   enemyName: Burger
-  enemyHealth: 10
+  enemyHealth: 20
   fat: 10
   moveSpeed: 5
-  model: {fileID: 8196055749428602701, guid: 77bf08af26d85d8429e71ab10d629e4a, type: 3}
+  model: {fileID: 4204665082961096172, guid: 598adb3383843234296ec7956736165e, type: 3}

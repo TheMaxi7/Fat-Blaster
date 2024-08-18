@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public float bossTimer = 300;
     public GameObject boss;
     public Transform bossSpawnTransform;
+    private bool bossSpawned = false;
     private void Awake()
     {
         if (instance == null)
@@ -28,7 +29,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         bossTimer -= Time.deltaTime;
-        if (bossTimer <= 0)
+        if (bossTimer <= 0 && bossSpawned == false)
         {
             SpawnBoss();
         }
@@ -50,5 +51,6 @@ public class GameManager : MonoBehaviour
     void SpawnBoss()
     {
         Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
+        bossSpawned = true;
     }
 }

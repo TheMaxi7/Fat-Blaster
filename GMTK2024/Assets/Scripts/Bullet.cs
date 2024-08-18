@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     public float damage;
     void Start()
     {
-
+        Destroy(gameObject, 3f);
     }
 
     void Update()
@@ -22,6 +22,10 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.layer == 6)
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(damage);
+        }
+        if (collision.gameObject.layer == 9)
+        {
+            collision.gameObject.GetComponent<BossController>().TakeDamage(damage);
         }
     }
 }

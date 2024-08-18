@@ -68,12 +68,12 @@ public class Shooting : MonoBehaviour
         if (success)
         {
             shootingDirection = position - transform.position;
-            shootingDirection.y = -2f;
+            shootingDirection.y = -1.3f;
             transform.forward = shootingDirection;
             shootingDirectionMuzzle1 = position - muzzles[0].transform.position;
             shootingDirectionMuzzle2 = position - muzzles[1].transform.position;
-            shootingDirectionMuzzle1.y = -2f;
-            shootingDirectionMuzzle2.y = -2f;
+            shootingDirectionMuzzle1.y = -1.3f;
+            shootingDirectionMuzzle2.y = -1.3f;
         }
     }
 }

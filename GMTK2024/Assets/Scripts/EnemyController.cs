@@ -8,21 +8,21 @@ public class EnemyController : MonoBehaviour
     public Enemy enemy;
     public float enemyHealth;
     private Transform target;
+    private Rigidbody enemyRb;
+    private float scaling;
     void Start()
     {
         enemyHealth = enemy.enemyHealth;
         target = GameObject.Find("Target").transform;
+        enemyRb = GetComponent<Rigidbody>();
+        scaling = transform.localScale.x;
     }
 
-    void Update()
+    void FixedUpdate()
     {
-
-        float distance = Vector3.Distance(transform.position, target.position);
-        Vector3 zeroedYTarget = new Vector3(target.position.x, 0.5f, target.position.z);
-        transform.LookAt(zeroedYTarget);
-        if (distance > 0.1)
-            transform.position += transform.forward * enemy.moveSpeed * Time.deltaTime;
-
+        target.position = new Vector3(target.position.x, transform.position.y, target.position.z);
+        transform.LookAt(target.position);
+        enemyRb.MovePosition(transform.position + transform.forward * Time.deltaTime * enemy.moveSpeed);
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -31,15 +31,19 @@ public class EnemyController : MonoBehaviour
             PlayerManager.instance.IncreaseFat(enemy.fat);
             Destroy(gameObject);
         }
+
     }
 
     public void TakeDamage(float damage)
     {
+        scaling /= 1.5f;
         enemyHealth -= damage;
+        transform.localScale = new Vector3(scaling, scaling, scaling);
         if (enemyHealth <= 0)
         {
             Die();
         }
+
     }
 
     public void Die()
