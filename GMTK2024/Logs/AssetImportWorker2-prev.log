@@ -1,0 +1,461 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/david/Desktop/github/GMTK2024/GMTK2024
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62522
+Successfully changed project path to: C:/Users/david/Desktop/github/GMTK2024/GMTK2024
+C:/Users/david/Desktop/github/GMTK2024/GMTK2024
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35084] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1548712903 [EditorId] 1548712903 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35084] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1548712903 [EditorId] 1548712903 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/david/Desktop/github/GMTK2024/GMTK2024/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   31.0.24033.1003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014127 seconds.
+- Loaded All Assemblies, in  0.460 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1112 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.522 seconds
+Domain Reload Profiling: 1980ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1269ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1639ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 5542.
+Memory consumption went from 225.1 MB to 223.6 MB.
+Total: 4.824100 ms (FindLiveObjects: 0.632100 ms CreateObjectMapping: 0.166700 ms MarkObjects: 3.460200 ms  DeleteObjects: 0.563400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49004.234890 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Tomato.fbx
+  artifactKey: Guid(9da20384a72bafd4ba5e77eaa896ccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Tomato.fbx using Guid(9da20384a72bafd4ba5e77eaa896ccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7a2bbd208597dabf837abb7b9a71e0') in 0.374972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Pear.fbx
+  artifactKey: Guid(ebec41d2536eb3c4eafa75e0c95f6d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Pear.fbx using Guid(ebec41d2536eb3c4eafa75e0c95f6d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065e40a98bfa7ff9d8a7a67e46511c18') in 0.014395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Burger.fbx
+  artifactKey: Guid(17bb0e13d90eb7540a9620e6f74bb614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Burger.fbx using Guid(17bb0e13d90eb7540a9620e6f74bb614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8a669266423235d6da05e13703e9e2') in 0.019381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Broccoli.fbx
+  artifactKey: Guid(6f41ced50b4be084786971caeec1f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Broccoli.fbx using Guid(6f41ced50b4be084786971caeec1f413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8075e69b3dd5e2a870390e52c31a0783') in 0.016358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/hotdog.fbx
+  artifactKey: Guid(92eeb117d92ab6b42b422d2267280c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/hotdog.fbx using Guid(92eeb117d92ab6b42b422d2267280c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9bc27c019baf45c668c87acfd0b980') in 0.088558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Banana.fbx
+  artifactKey: Guid(0a6a2491386b3be489501ed9d6f51b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Banana.fbx using Guid(0a6a2491386b3be489501ed9d6f51b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dcec994655c1168ac83d9ba470fcc5') in 0.015962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/KitchenProps_01.fbx
+  artifactKey: Guid(b038d5b88a4dfff459d931acc59c90f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/KitchenProps_01.fbx using Guid(b038d5b88a4dfff459d931acc59c90f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8ed395d914086a53fc47117bc75b00') in 0.017178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Steak.fbx
+  artifactKey: Guid(6e598c142fd0bf340965313dd204d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Steak.fbx using Guid(6e598c142fd0bf340965313dd204d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01af3af095a0803a7e6edb5b51d8e873') in 0.016508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Avocado.fbx
+  artifactKey: Guid(19f66ff944e6f3f428a16e5210fddaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Avocado.fbx using Guid(19f66ff944e6f3f428a16e5210fddaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e812b4f3ed7debd19ad3c32706f00dd') in 0.017921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Pepper.fbx
+  artifactKey: Guid(0483fbf3fcdb60740a9db9ef1f6598ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Pepper.fbx using Guid(0483fbf3fcdb60740a9db9ef1f6598ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb9c54fb164a024056d938c34523ec0') in 0.017355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Watermelon.fbx
+  artifactKey: Guid(87f1d3e1f881742479c0f30526ecf0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Watermelon.fbx using Guid(87f1d3e1f881742479c0f30526ecf0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754b7039370d5b7bee2897b5136f426') in 0.016531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/donat.fbx
+  artifactKey: Guid(06435cd4ca204254784b118a0cca9e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/donat.fbx using Guid(06435cd4ca204254784b118a0cca9e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b90e331a6abb575d1f25b7e71fcc1d') in 0.060431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Apple.fbx
+  artifactKey: Guid(12bf7c0de8c3b5b4bb67f4f585d5a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Apple.fbx using Guid(12bf7c0de8c3b5b4bb67f4f585d5a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ce46b9cb9027fc35aba8543bb91507') in 0.016881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Donut_01.fbx
+  artifactKey: Guid(20fc9c5e71adb0443bff79e76235884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Donut_01.fbx using Guid(20fc9c5e71adb0443bff79e76235884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8518489384adc4b34bad910a925e106f') in 0.016102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Fish.fbx
+  artifactKey: Guid(6e7236bcc7ad8a345bd8203a37806cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Fish.fbx using Guid(6e7236bcc7ad8a345bd8203a37806cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85ad10ce318b394b4012ee527e12731') in 0.019254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Soda.fbx
+  artifactKey: Guid(4ad0dc4a44b5e554290d1283e1b57e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Soda.fbx using Guid(4ad0dc4a44b5e554290d1283e1b57e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4614e43018c401ecebfd628b4ee1ea20') in 0.016327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/cupcakeboss.fbx
+  artifactKey: Guid(c69d51f165966fb448de45a17341d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/cupcakeboss.fbx using Guid(c69d51f165966fb448de45a17341d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a73708366f05da3d3afe83796f72fc4') in 0.081021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Pumpkin.fbx
+  artifactKey: Guid(01a647d07ea2c9544a4ebba6208c2ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Pumpkin.fbx using Guid(01a647d07ea2c9544a4ebba6208c2ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7d01094e64fa1d5b69717a4711fde2') in 0.014644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Cake.fbx
+  artifactKey: Guid(6524c1de4d7db9e44ac6ab511a6ced7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Cake.fbx using Guid(6524c1de4d7db9e44ac6ab511a6ced7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a848e9147d5dc3726e81718301c542') in 0.016543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/CoffeCup.fbx
+  artifactKey: Guid(5e87ddfd4564feb4689769f649055178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/CoffeCup.fbx using Guid(5e87ddfd4564feb4689769f649055178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e235df6a090ced7e1108a4e36fea616') in 0.019088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/burgerModified.fbx
+  artifactKey: Guid(32791ce6364e7d74b8c3054cffd41459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/burgerModified.fbx using Guid(32791ce6364e7d74b8c3054cffd41459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee81186450f94b748f6273382953de8') in 0.064690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Garlic.fbx
+  artifactKey: Guid(492a45aed2810d6409d24485e57a145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Garlic.fbx using Guid(492a45aed2810d6409d24485e57a145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9028fa73acc379dd8ccdfec30aa76ce') in 0.015581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Knife.fbx
+  artifactKey: Guid(fd60263792e82964bac79b765f4eba88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Knife.fbx using Guid(fd60263792e82964bac79b765f4eba88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b4d79e8cc5ae1b4e92653ff86438e8') in 0.016272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/KitchenProps_02.fbx
+  artifactKey: Guid(0981cbdc714bea94496aa16ec2a12191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/KitchenProps_02.fbx using Guid(0981cbdc714bea94496aa16ec2a12191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad1b717223c7eb14043d42630e70ed1') in 0.016683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Cupcake.fbx
+  artifactKey: Guid(1e563b9fd9b1e414b9c8323cf0f2c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Cupcake.fbx using Guid(1e563b9fd9b1e414b9c8323cf0f2c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d01a8b607c91effbe4001cd1a526b0') in 0.014543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Carrot.fbx
+  artifactKey: Guid(539003eed0bf20a4faf58b92584a662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Carrot.fbx using Guid(539003eed0bf20a4faf58b92584a662b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a465c1c6d3f7e86ec330c304d226921d') in 0.016244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Bread.fbx
+  artifactKey: Guid(5a860cf6d43581e43870f56889bf5f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Bread.fbx using Guid(5a860cf6d43581e43870f56889bf5f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67161377f1c06c34dcb3c4aca4a285c') in 0.017007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Plate_02.fbx
+  artifactKey: Guid(30db5509d0abede4cbcfb1c8a63a6c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Plate_02.fbx using Guid(30db5509d0abede4cbcfb1c8a63a6c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3ed8d8e4aaaf2cb6f7c2c1b89bf4f5') in 0.015789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Donut_02.fbx
+  artifactKey: Guid(dfb39248011bc5c48b7bb365ac5b5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Donut_02.fbx using Guid(dfb39248011bc5c48b7bb365ac5b5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fef46ca989ce9df5e738475be7cf992') in 0.015142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Plate_01.fbx
+  artifactKey: Guid(610c01680284fa14ba5ec40bd8690a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Plate_01.fbx using Guid(610c01680284fa14ba5ec40bd8690a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5354105eabbe1c4e546712bb59a5579d') in 0.023764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Imports/LowPolyFoodLite/Models/Mushroom.fbx
+  artifactKey: Guid(0dea975dd1211a249a51235128b881d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/LowPolyFoodLite/Models/Mushroom.fbx using Guid(0dea975dd1211a249a51235128b881d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfcfc52eb74f44d8c32dbebe40830a3') in 0.018917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.5 MB). Loaded Objects now: 5678.
+Memory consumption went from 114.3 MB to 112.8 MB.
+Total: 4.185600 ms (FindLiveObjects: 0.489500 ms CreateObjectMapping: 0.147800 ms MarkObjects: 3.222000 ms  DeleteObjects: 0.325500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

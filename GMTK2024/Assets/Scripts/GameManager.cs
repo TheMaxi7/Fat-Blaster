@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool gameOver = false;
+    public bool gamePaused = false;
     public float bossTimer = 300;
     public GameObject boss;
     public Transform bossSpawnTransform;
@@ -52,5 +53,26 @@ public class GameManager : MonoBehaviour
     {
         Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
         bossSpawned = true;
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+        gamePaused = true;
+    }
+    public void Continue()
+    {
+        Time.timeScale = 1;
+        gamePaused = false;
     }
 }

@@ -376,6 +376,7 @@
 "Assets/Scripts/CharacterScaling.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/FatIndicator.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PickUp.cs"
 "Assets/Scripts/PickUpController.cs"

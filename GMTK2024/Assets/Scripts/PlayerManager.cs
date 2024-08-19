@@ -43,7 +43,7 @@ public class PlayerManager : MonoBehaviour
 
     void CheckFatCondition()
     {
-        if (playerFat >= 400)
+        if (playerFat >= 300)
         {
             GameManager.instance.GameOver();
         }
