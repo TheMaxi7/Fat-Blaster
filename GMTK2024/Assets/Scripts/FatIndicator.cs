@@ -13,14 +13,12 @@ public class FatIndicator : MonoBehaviour
         parentSize = fatbar.GetComponentInParent<RectTransform>().sizeDelta;
         indicatorSize = GetComponent<RectTransform>().sizeDelta;
         maxPos = parentSize.x - indicatorSize.x;
-        Debug.Log(GetComponent<RectTransform>().anchoredPosition);
     }
 
     void Update()
     {
         var fatLevel = PlayerManager.instance.playerFat / 300;
         var indicatorPos = (fatLevel * maxPos) - maxPos / 2;
-        Debug.Log(indicatorPos);
         GetComponent<RectTransform>().anchoredPosition = new Vector2(indicatorPos, GetComponent<RectTransform>().anchoredPosition.y);
     }
 }

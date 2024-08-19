@@ -148,3 +148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 11400000, guid: 494c2416d05c3e24e8bfa3d6dde3cf5d, type: 2}
   enemyHealth: 0
+  deathEffect: {fileID: 0}
+  enemyMesh: {fileID: 0}
+  damageColor: {r: 0, g: 0, b: 0, a: 0}

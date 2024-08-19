@@ -10,12 +10,18 @@ public class BossController : MonoBehaviour
     private Transform target;
     private Rigidbody enemyRb;
     private float scaling;
+    public GameObject deathEffect;
+    public MeshRenderer enemyMesh;
+    private Color originColor;
+    public Color damageColor;
     void Start()
     {
         enemyHealth = enemy.enemyHealth;
+        Debug.Log(enemyHealth);
         target = GameObject.Find("Target").transform;
         enemyRb = GetComponent<Rigidbody>();
         scaling = transform.localScale.x;
+        originColor = enemyMesh.material.color;
     }
 
     void FixedUpdate()
@@ -42,12 +48,24 @@ public class BossController : MonoBehaviour
         if (enemyHealth <= 0)
         {
             Die();
+
         }
+        if (enemyHealth >= damage)
+            StartCoroutine(FlashDamage());
 
     }
 
     public void Die()
     {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        GameManager.instance.endGame = true;
         Destroy(gameObject);
+    }
+
+    IEnumerator FlashDamage()
+    {
+        enemyMesh.material.color = damageColor;
+        yield return new WaitForSeconds(0.2f);
+        enemyMesh.material.color = originColor;
     }
 }

@@ -10,10 +10,12 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public bool gameOver = false;
     public bool gamePaused = false;
+    public bool endGame = false;
     public float bossTimer = 300;
     public GameObject boss;
     public Transform bossSpawnTransform;
-    private bool bossSpawned = false;
+    private GameObject bossInstance;
+    public bool bossSpawned = false;
     private void Awake()
     {
         if (instance == null)
@@ -34,6 +36,7 @@ public class GameManager : MonoBehaviour
         {
             SpawnBoss();
         }
+
     }
     public void GameOver()
     {
@@ -44,14 +47,24 @@ public class GameManager : MonoBehaviour
     public void TryAgain()
     {
         gameOver = false;
+        endGame = false;
         Time.timeScale = 1;
-        PlayerManager.instance.playerFat = 200;
+        SceneManager.LoadScene("Main");
+        PlayerManager.instance.playerFat = 150;
+    }
+
+    public void NewGame()
+    {
+        gameOver = false;
+        endGame = false;
+        Time.timeScale = 1;
         SceneManager.LoadScene("Main");
     }
 
     void SpawnBoss()
     {
-        Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
+        bossInstance = Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
+        bossInstance.GetComponent<BossController>().enemyMesh = bossInstance.GetComponent<MeshRenderer>();
         bossSpawned = true;
     }
 
@@ -62,6 +75,10 @@ public class GameManager : MonoBehaviour
 
     public void BackToMenu()
     {
+        Time.timeScale = 1;
+        gameOver = false;
+        gamePaused = false;
+        endGame = false;
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -75,4 +92,5 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         gamePaused = false;
     }
+
 }

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\Assembly-CSharp.csproj",
-      "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\CFXR.WelcomeScreen.csproj",
+      "projectName": "CFXR.WelcomeScreen",
+      "projectPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\CFXR.WelcomeScreen.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\obj\\",
       "projectStyle": "PackageReference",

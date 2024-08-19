@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -12,6 +13,7 @@ public class EnemyController : MonoBehaviour
     private float scaling;
     private bool scaled = false;
 
+    public GameObject deathEffect;
     public MeshRenderer enemyMesh;
     private Color originColor;
     public Color damageColor;
@@ -62,6 +64,8 @@ public class EnemyController : MonoBehaviour
 
     public void Die()
     {
+        Instantiate(deathEffect, transform.position, quaternion.identity);
+        //gameObject.SetActive(false);
         Destroy(gameObject);
     }
 

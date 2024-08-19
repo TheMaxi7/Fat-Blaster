@@ -189,6 +189,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 11400000, guid: 494c2416d05c3e24e8bfa3d6dde3cf5d, type: 2}
   enemyHealth: 0
+  deathEffect: {fileID: 4593184484909914552, guid: 2e1e9506f5904a64b81744324fb7cd50,
+    type: 3}
+  enemyMesh: {fileID: 0}
+  damageColor: {r: 1, g: 0.17254902, b: 0, a: 0.57254905}
 --- !u!54 &5375551592975424240
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -197,8 +201,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246966158404791463}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
+  m_Mass: 500
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}

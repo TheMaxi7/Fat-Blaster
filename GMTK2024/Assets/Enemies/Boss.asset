@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Boss
   m_EditorClassIdentifier: 
   enemyName: Boss
-  enemyHealth: 500
+  enemyHealth: 300
   fat: 400
   moveSpeed: 5
   model: {fileID: 1246966158404791463, guid: 46fe23c3e12ffed4a811809354de524a, type: 3}

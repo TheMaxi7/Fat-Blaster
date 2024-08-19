@@ -26,7 +26,7 @@ public class Shooting : MonoBehaviour
     }
     void Update()
     {
-        if (GameManager.instance.gameOver == false && GameManager.instance.gamePaused == false)
+        if (GameManager.instance.gameOver == false && GameManager.instance.gamePaused == false && GameManager.instance.endGame == false)
         {
             Aim();
             if (Input.GetKey(KeyCode.Mouse0))

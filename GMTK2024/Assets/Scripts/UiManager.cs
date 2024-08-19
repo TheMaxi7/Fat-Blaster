@@ -10,25 +10,35 @@ public class UiManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject pauseGameScreen;
     public GameObject fatBar;
-    public TextMeshProUGUI playerFatText;
-    public TextMeshProUGUI moveSpeedText;
+    public GameObject bossTimer;
+    public GameObject winPanel;
+    private int minutes, seconds;
 
     void Update()
     {
-        playerFatText.text = PlayerManager.instance.playerFat + "";
-        moveSpeedText.text = PlayerManager.instance.speedMovement + "";
+        BossTimer();
+
+        if (GameManager.instance.bossSpawned)
+            bossTimer.SetActive(false);
+        bossTimer.GetComponent<TextMeshProUGUI>().text = "MAD CUPCAKE IN " + minutes + ":" + seconds;
         if (GameManager.instance.gameOver == true)
         {
             gameOverScreen.SetActive(true);
             fatBar.SetActive(false);
+            bossTimer.SetActive(false);
         }
         else
         {
-            gameOverScreen.SetActive(false);
-            fatBar.SetActive(true);
+            if (GameManager.instance.endGame == false || GameManager.instance.gamePaused == false)
+            {
+                gameOverScreen.SetActive(false);
+                fatBar.SetActive(true);
+                bossTimer.SetActive(true);
+            }
+
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !GameManager.instance.endGame && !GameManager.instance.gameOver)
         {
             if (GameManager.instance.gamePaused)
             {
@@ -45,12 +55,36 @@ public class UiManager : MonoBehaviour
         {
             pauseGameScreen.SetActive(true);
             fatBar.SetActive(false);
+            bossTimer.SetActive(false);
         }
         else
         {
             pauseGameScreen.SetActive(false);
-            fatBar.SetActive(true);
         }
+
+        if (GameManager.instance.endGame)
+        {
+            StartCoroutine(ActivateWinPanel());
+            fatBar.SetActive(false);
+            bossTimer.SetActive(false);
+        }
+        else
+        {
+            winPanel.SetActive(false);
+        }
+    }
+
+    private void BossTimer()
+    {
+        minutes = Mathf.FloorToInt(GameManager.instance.bossTimer / 60);
+        seconds = Mathf.FloorToInt(GameManager.instance.bossTimer % 60);
+    }
+
+    private IEnumerator ActivateWinPanel()
+    {
+        yield return new WaitForSeconds(2f);
+        winPanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
 
