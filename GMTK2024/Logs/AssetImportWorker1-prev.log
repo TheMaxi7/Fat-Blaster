@@ -15,7 +15,7 @@ C:/Users/david/Desktop/github/GMTK2024/GMTK2024
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49948
+53977
 Successfully changed project path to: C:/Users/david/Desktop/github/GMTK2024/GMTK2024
 C:/Users/david/Desktop/github/GMTK2024/GMTK2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/david/Desktop/github/GMTK2024/GMTK2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12560] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3486949241 [EditorId] 3486949241 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5040] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1182726881 [EditorId] 1182726881 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12560] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3486949241 [EditorId] 3486949241 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5040] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1182726881 [EditorId] 1182726881 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 12.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009063 seconds.
-- Loaded All Assemblies, in  0.369 seconds
+Registered in 0.016518 seconds.
+- Loaded All Assemblies, in  0.446 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 455 ms
+Android Extension - Scanning For ADB Devices 297 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.802 seconds
-Domain Reload Profiling: 1170ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1080ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (109ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (125ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (161ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (802ms)
+	FinalizeReload (636ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (741ms)
+		SetupLoadedEditorAssemblies (570ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (584ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (423ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 1170ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.758 seconds
-Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.699 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,48 +130,113 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.626 seconds
-Domain Reload Profiling: 1382ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1376ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (519ms)
-		LoadAssemblies (418ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (328ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (155ms)
-				TypeCache.ScanAssembly (139ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (626ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (680ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5123 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 5581.
-Memory consumption went from 301.2 MB to 299.7 MB.
-Total: 4.554800 ms (FindLiveObjects: 0.564800 ms CreateObjectMapping: 0.204500 ms MarkObjects: 3.087000 ms  DeleteObjects: 0.696900 ms)
+Unloading 5124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 5582.
+Memory consumption went from 301.1 MB to 299.5 MB.
+Total: 4.589900 ms (FindLiveObjects: 0.564200 ms CreateObjectMapping: 0.164400 ms MarkObjects: 3.178500 ms  DeleteObjects: 0.681200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.494 seconds
+Domain Reload Profiling: 2080ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.5 MB). Loaded Objects now: 5586.
+Memory consumption went from 264.5 MB to 263.0 MB.
+Total: 4.689400 ms (FindLiveObjects: 0.690100 ms CreateObjectMapping: 0.205000 ms MarkObjects: 3.371000 ms  DeleteObjects: 0.421700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,170 +252,176 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3345.253973 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/continuous_beam_2.wav
-  artifactKey: Guid(2ce0c987f044d984cbfb30a5161557e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/continuous_beam_2.wav using Guid(2ce0c987f044d984cbfb30a5161557e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790b00f2acaff9f8c42e824dbd830704') in 0.103059 seconds
+  Time since last request: 6974.708570 seconds.
+  path: Assets/PickUps/Carrot.asset
+  artifactKey: Guid(96fff8dca684ea84ea7e4a5e070d304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PickUps/Carrot.asset using Guid(96fff8dca684ea84ea7e4a5e070d304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c586716c1278056f610ff305ec3251a7') in 0.024344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling: 1795ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1289ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (502ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.5 MB). Loaded Objects now: 5591.
+Memory consumption went from 266.5 MB to 265.0 MB.
+Total: 5.014200 ms (FindLiveObjects: 0.706600 ms CreateObjectMapping: 0.226900 ms MarkObjects: 3.604200 ms  DeleteObjects: 0.474400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.095694 seconds.
+  path: Assets/Scripts/PickUpController.cs
+  artifactKey: Guid(101d261626a374a4dab8c6f08bc16412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickUpController.cs using Guid(101d261626a374a4dab8c6f08bc16412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93995bcb4e01177a2a71d172f9ceacc0') in 0.001668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.374 seconds
+Domain Reload Profiling: 1878ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1375ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4923 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.5 MB). Loaded Objects now: 5595.
+Memory consumption went from 268.5 MB to 266.9 MB.
+Total: 4.009400 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.165800 ms MarkObjects: 2.955200 ms  DeleteObjects: 0.399100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 244.276154 seconds.
+  path: Assets/Imports/Scalable Grid Prototype Materials/Textures/1x1_grid.png
+  artifactKey: Guid(3d0e3f5f772629948810acd3051ba57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Scalable Grid Prototype Materials/Textures/1x1_grid.png using Guid(3d0e3f5f772629948810acd3051ba57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21e7e8a3bff8f37beb8c6b9dd5ca7f6') in 0.065589 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_008.wav
-  artifactKey: Guid(ffa45816b43df074790e9986c5b85b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_008.wav using Guid(ffa45816b43df074790e9986c5b85b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfdcafee67e187c4c5f621ec4d490b4') in 0.006926 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imports/Scalable Grid Prototype Materials/Textures/1x1_grid_quarter_lines_numbered.png
+  artifactKey: Guid(f3fda86b5946f734a9a3ff491f163a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Scalable Grid Prototype Materials/Textures/1x1_grid_quarter_lines_numbered.png using Guid(f3fda86b5946f734a9a3ff491f163a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feac454d881a2c8dd711dafa82236c91') in 0.011364 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_012.wav
-  artifactKey: Guid(23d80b5297162e9459fea98d1bec36f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_012.wav using Guid(23d80b5297162e9459fea98d1bec36f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9726e7c1d7e3bdbabc89761de7e8312') in 0.006319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/continuous_beam_5.wav
-  artifactKey: Guid(5c8899e8ddc3f2e46a900ccaeb4d44ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/continuous_beam_5.wav using Guid(5c8899e8ddc3f2e46a900ccaeb4d44ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6060d6f609a7f558512ee588fe4e755c') in 0.010752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/light_blast_1.wav
-  artifactKey: Guid(5ff5bd936a30a904da907f35c8dd382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/light_blast_1.wav using Guid(5ff5bd936a30a904da907f35c8dd382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811aa7f329f75acfe71b2a2c8884342b') in 0.007402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_009.wav
-  artifactKey: Guid(b590eb6e51c172d4ea06202230bf8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_009.wav using Guid(b590eb6e51c172d4ea06202230bf8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7abc40063e012779e234d8b0235e925') in 0.007889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_014.wav
-  artifactKey: Guid(9f45e6a5f5cd816458d7c9359c903f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_014.wav using Guid(9f45e6a5f5cd816458d7c9359c903f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521ecb15cc020b06b26e4c84a320315c') in 0.007530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/light_blast_7.wav
-  artifactKey: Guid(e3298e35eed19c942b6f4d2d41cd21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/light_blast_7.wav using Guid(e3298e35eed19c942b6f4d2d41cd21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e75f5928f19412d98d5595f6e009b') in 0.009168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_006.wav
-  artifactKey: Guid(1c296947519a8ef4380c5302267cf26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_006.wav using Guid(1c296947519a8ef4380c5302267cf26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993f70916c3b41af73b3f4ef1b7be6bf') in 0.009212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_002.wav
-  artifactKey: Guid(17f3805d11575844d85b49435bac1572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_002.wav using Guid(17f3805d11575844d85b49435bac1572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce56ab39d94c33cf2bb74554c7b7ce3') in 0.007334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_003.wav
-  artifactKey: Guid(380a61624a607f042ab5e96218f37633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_003.wav using Guid(380a61624a607f042ab5e96218f37633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340c2da84f57d9ad95578bd47b4cdce6') in 0.005743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/light_blast_10.wav
-  artifactKey: Guid(0c4f452a658af404d9e375bd5ee7bd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/light_blast_10.wav using Guid(0c4f452a658af404d9e375bd5ee7bd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934c3471c6f9851afdbc13265709e080') in 0.007034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/light_blast_8.wav
-  artifactKey: Guid(b02661b1983843f4a8e25854215c13f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/light_blast_8.wav using Guid(b02661b1983843f4a8e25854215c13f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa64326433c348bafbc5d9fb3d90c604') in 0.006970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/heavy_blast_004.wav
-  artifactKey: Guid(45e5a2d015897d34780787ab6e691387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/heavy_blast_004.wav using Guid(45e5a2d015897d34780787ab6e691387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d579b30550fd8484543f1393e47651') in 0.006743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/light_blast_5.wav
-  artifactKey: Guid(de812cfb519929c4aad9d296f655c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/light_blast_5.wav using Guid(de812cfb519929c4aad9d296f655c81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38da9ac41a504a3d90654cdbe3c3dfe') in 0.007090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/light_blast_6.wav
-  artifactKey: Guid(60a0682fbc82bd244bdae3f3445cfd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/light_blast_6.wav using Guid(60a0682fbc82bd244bdae3f3445cfd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7209a6c4b80acc00a1ba7bd70082b3e5') in 0.007358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 21.548592 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/reloading_005.wav
-  artifactKey: Guid(c11fb3b3ced9fff40a645a5a5d1157a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/reloading_005.wav using Guid(c11fb3b3ced9fff40a645a5a5d1157a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7711ddca6cf9be6b4462e105a783e4c1') in 0.006242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/reloading_006.wav
-  artifactKey: Guid(8ef9910cbbea2eb419a97151cec5d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/reloading_006.wav using Guid(8ef9910cbbea2eb419a97151cec5d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e2a34053f838239fdd568365ec96c') in 0.006640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.974253 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/reloading_009.wav
-  artifactKey: Guid(4fa2aa5edbbdb1f4885ff9fcd341bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/reloading_009.wav using Guid(4fa2aa5edbbdb1f4885ff9fcd341bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbbb96783a6080fca474e8ae01bee35') in 0.005916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.097427 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/reloading_013.wav
-  artifactKey: Guid(4eedb1249b4340b4bb4ec3aa4d13e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/reloading_013.wav using Guid(4eedb1249b4340b4bb4ec3aa4d13e693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb6a1870b5064faa8e9a6b39ff97c95') in 0.007333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 24.647521 seconds.
-  path: Assets/Laser Weapons Sound Pack/Free/weapon_handling_37.wav
-  artifactKey: Guid(d3bfc09906578ae4f97f0be75ae2cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Laser Weapons Sound Pack/Free/weapon_handling_37.wav using Guid(d3bfc09906578ae4f97f0be75ae2cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbbb78351df9a2011df0e578880a9e1') in 0.006055 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/Scalable Grid Prototype Materials/Textures/1x1_grid_quarter_lines.png
+  artifactKey: Guid(1a495c858e010c4438479ff37c318db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Scalable Grid Prototype Materials/Textures/1x1_grid_quarter_lines.png using Guid(1a495c858e010c4438479ff37c318db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774de2c092becd35b9dcdf802a76914b') in 0.012580 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

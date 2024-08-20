@@ -1383,7 +1383,7 @@ MonoBehaviour:
   enemiesList:
   - {fileID: 11400000, guid: 2469d7f6069a39e41994d8a14e2baa02, type: 2}
   - {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
-  spawnTime: 10
+  spawnTime: 8
   canSpawn: 1
   spawnerPosition: {fileID: 191091387}
 --- !u!136 &191091389
@@ -1723,7 +1723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesList:
   - {fileID: 11400000, guid: 0b1c5fdaefe876a4fbef881f638e9141, type: 2}
-  spawnTime: 10
+  spawnTime: 8
   canSpawn: 1
   spawnerPosition: {fileID: 229020464}
 --- !u!136 &229020466
@@ -6006,7 +6006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesList:
   - {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
-  spawnTime: 10
+  spawnTime: 8
   canSpawn: 1
   spawnerPosition: {fileID: 1078215422}
 --- !u!136 &1078215424
@@ -6751,7 +6751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesList:
   - {fileID: 11400000, guid: 0b1c5fdaefe876a4fbef881f638e9141, type: 2}
-  spawnTime: 10
+  spawnTime: 8
   canSpawn: 1
   spawnerPosition: {fileID: 1321905701}
 --- !u!1 &1328527753
@@ -7352,7 +7352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesList:
   - {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
-  spawnTime: 10
+  spawnTime: 8
   canSpawn: 1
   spawnerPosition: {fileID: 1398414697}
 --- !u!136 &1398414699
@@ -7727,7 +7727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesList:
   - {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
-  spawnTime: 10
+  spawnTime: 8
   canSpawn: 1
   spawnerPosition: {fileID: 1451351054}
 --- !u!136 &1451351056
@@ -9424,7 +9424,7 @@ MonoBehaviour:
   enemiesList:
   - {fileID: 11400000, guid: 2469d7f6069a39e41994d8a14e2baa02, type: 2}
   - {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
-  spawnTime: 10
+  spawnTime: 6
   canSpawn: 1
   spawnerPosition: {fileID: 1956062986}
 --- !u!136 &1956062988
@@ -10411,7 +10411,7 @@ MonoBehaviour:
   enemiesList:
   - {fileID: 11400000, guid: 2469d7f6069a39e41994d8a14e2baa02, type: 2}
   - {fileID: 11400000, guid: 46b87e301a209454b89b21c154b90a8c, type: 2}
-  spawnTime: 10
+  spawnTime: 5
   canSpawn: 1
   spawnerPosition: {fileID: 2128291390}
 --- !u!136 &2128291392

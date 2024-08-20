@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
+
 using UnityEngine;
 
 public class PickUpController : MonoBehaviour
@@ -33,9 +30,6 @@ public class PickUpController : MonoBehaviour
                     SoundManager.PlaySound(SoundType.TomatoSFX, 0.22f);
                     PlayerManager.instance.IncreaseFireRate();
                     break;
-                //case type.TimeSlow:
-                //PlayerManager.instance.SlowTime();
-                //break;
                 default:
                     break;
             }
@@ -44,9 +38,7 @@ public class PickUpController : MonoBehaviour
     }
     public void IncreaseSpeed()
     {
-        Debug.Log("preso carota");
         PlayerManager.instance.speedMovement += 10f;
-        Debug.Log("pta");
         float timer = 15f;
         while (timer >= 0)
         {

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpName: Pepper
   Icon: {fileID: 0}
-  rarity: 25
+  rarity: 40
   model: {fileID: 3388152910422019967, guid: 5d417da467b25a841990034ad197fd1c, type: 3}
   bonusType: 2

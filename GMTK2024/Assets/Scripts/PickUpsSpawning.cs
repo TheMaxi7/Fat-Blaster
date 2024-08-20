@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class PickUpsSpawning : MonoBehaviour
@@ -51,8 +50,8 @@ public class PickUpsSpawning : MonoBehaviour
 
     private Vector3 FindSpawnLocation()
     {
-        float posX = Random.Range(-18.5f, 19f);
-        float posZ = Random.Range(-12f, 8.35f);
+        float posX = Random.Range(-15.5f, 16f);
+        float posZ = Random.Range(-11.7f, 8.5f);
         float posY = 1f;
         return new Vector3(posX, posY, posZ);
     }

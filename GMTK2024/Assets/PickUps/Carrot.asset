@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpName: Carrot
   Icon: {fileID: 0}
-  rarity: 25
+  rarity: 40
   model: {fileID: 4333536560383591219, guid: 7fad5576958c1aa478acbdb42176a4c9, type: 3}
   bonusType: 0

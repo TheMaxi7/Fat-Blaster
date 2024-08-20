@@ -1,10 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
-using Unity.Mathematics;
+
 using UnityEngine;
-using UnityEngine.UIElements;
-using UnityEngine.VFX;
+
 
 public class Shooting : MonoBehaviour
 {
@@ -72,12 +68,12 @@ public class Shooting : MonoBehaviour
         if (success)
         {
             shootingDirection = position - transform.position;
-            shootingDirection.y = -0.7f;
+            shootingDirection.y = -1f;
             transform.forward = shootingDirection;
             shootingDirectionMuzzle1 = position - muzzles[0].transform.position;
             shootingDirectionMuzzle2 = position - muzzles[1].transform.position;
-            shootingDirectionMuzzle1.y = -0.7f;
-            shootingDirectionMuzzle2.y = -0.7f;
+            shootingDirectionMuzzle1.y = -1f;
+            shootingDirectionMuzzle2.y = -1f;
         }
     }
 }

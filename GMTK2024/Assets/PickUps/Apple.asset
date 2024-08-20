@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpName: Apple
   Icon: {fileID: 0}
-  rarity: 25
+  rarity: 20
   model: {fileID: 388876489497171537, guid: 3c34c00f33f0b254daee20c57709cc5a, type: 3}
   bonusType: 1

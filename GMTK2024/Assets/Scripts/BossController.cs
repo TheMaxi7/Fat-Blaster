@@ -17,7 +17,6 @@ public class BossController : MonoBehaviour
     void Start()
     {
         enemyHealth = enemy.enemyHealth;
-        Debug.Log(enemyHealth);
         target = GameObject.Find("Target").transform;
         enemyRb = GetComponent<Rigidbody>();
         scaling = transform.localScale.x;
