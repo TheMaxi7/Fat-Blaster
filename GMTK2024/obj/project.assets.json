@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "KinoBloom.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/KinoBloom.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KinoBloom.Runtime.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "KinoBloom.Runtime/1.0.0": {
+      "type": "project",
+      "path": "KinoBloom.Runtime.csproj",
+      "msbuildProject": "KinoBloom.Runtime.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "KinoBloom.Runtime >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\david\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\CFXREditor.csproj",
-      "projectName": "CFXREditor",
-      "projectPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\CFXREditor.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\ToonyColorsPro.Demo.Editor.csproj",
+      "projectName": "ToonyColorsPro.Demo.Editor",
+      "projectPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\ToonyColorsPro.Demo.Editor.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\obj\\",
       "projectStyle": "PackageReference",
@@ -39,7 +58,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\KinoBloom.Runtime.csproj": {
+              "projectPath": "C:\\Users\\david\\Desktop\\github\\GMTK2024\\GMTK2024\\KinoBloom.Runtime.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

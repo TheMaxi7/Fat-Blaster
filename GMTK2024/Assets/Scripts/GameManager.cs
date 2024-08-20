@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -67,7 +66,7 @@ public class GameManager : MonoBehaviour
     void SpawnBoss()
     {
         bossInstance = Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
-        SoundManager.PlaySound(SoundType.BossSpawn, 0.3f);
+        SoundManager.PlaySound(SoundType.BossSpawn, 0.5f);
         bossInstance.GetComponent<BossController>().enemyMesh = bossInstance.GetComponent<MeshRenderer>();
         bossSpawned = true;
     }

@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.layer == 7)
         {
             PlayerManager.instance.IncreaseFat(enemy.fat);
-            SoundManager.PlaySound(SoundType.EatingSFX, 0.15f);
+            SoundManager.PlaySound(SoundType.EatingSFX, 0.3f);
             Destroy(gameObject);
         }
 
@@ -66,7 +66,7 @@ public class EnemyController : MonoBehaviour
     public void Die()
     {
         Instantiate(deathEffect, transform.position, quaternion.identity);
-        SoundManager.PlaySound(SoundType.EnemyExplosion, 0.01f);
+        SoundManager.PlaySound(SoundType.EnemyExplosion, 0.03f);
         //gameObject.SetActive(false);
         Destroy(gameObject);
     }

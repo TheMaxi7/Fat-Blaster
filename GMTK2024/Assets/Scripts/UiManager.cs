@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
@@ -13,7 +14,11 @@ public class UiManager : MonoBehaviour
     public GameObject bossTimer;
     public GameObject winPanel;
     public GameObject bossHpBar;
+    public GameObject settingsPanel;
+    private bool openSettings;
     public Image hpBossBar;
+
+
 
     private int minutes, seconds;
 
@@ -53,6 +58,8 @@ public class UiManager : MonoBehaviour
             if (GameManager.instance.gamePaused)
             {
                 GameManager.instance.Continue();
+                settingsPanel.SetActive(false);
+                openSettings = false;
             }
             else
             {
@@ -63,10 +70,12 @@ public class UiManager : MonoBehaviour
 
         if (GameManager.instance.gamePaused == true)
         {
-            pauseGameScreen.SetActive(true);
+            if (!openSettings)
+                pauseGameScreen.SetActive(true);
             fatBar.SetActive(false);
             bossTimer.SetActive(false);
             bossHpBar.SetActive(false);
+
         }
         else
         {
@@ -108,6 +117,23 @@ public class UiManager : MonoBehaviour
             float currentHp = hp / startHp;
             hpBossBar.fillAmount = currentHp;
         }
+
+    }
+
+    public void CloseSetting()
+    {
+
+        settingsPanel.SetActive(false);
+        pauseGameScreen.SetActive(true);
+        openSettings = false;
+    }
+    public void OpenSettings()
+    {
+
+        settingsPanel.SetActive(true);
+        pauseGameScreen.SetActive(false);
+        openSettings = true;
+
 
     }
 

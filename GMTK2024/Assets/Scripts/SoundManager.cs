@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public enum SoundType
 {
@@ -27,6 +29,9 @@ public class SoundManager : MonoBehaviour
     private AudioSource audioSource;
     public static SoundManager instance;
 
+    public AudioMixer gameMixer;
+    public Slider musicSlider;
+    public Slider effectsSlider;
     private void Awake()
     {
         instance = this;
@@ -44,13 +49,24 @@ public class SoundManager : MonoBehaviour
 
     public void PlayHoverSound()
     {
-        PlaySound(SoundType.HoverUISFX, 0.08f);
+        PlaySound(SoundType.HoverUISFX, 0.15f);
     }
 
     public void PlayClickSound()
     {
-        PlaySound(SoundType.ClickUISFX, 0.08f);
+        PlaySound(SoundType.ClickUISFX, 0.15f);
     }
 
+    public void MusicVolume()
+    {
+        float volume = musicSlider.value;
+        gameMixer.SetFloat("music", Mathf.Log10(volume) * 20);
+    }
+
+    public void EffectsVolume()
+    {
+        float volume = effectsSlider.value;
+        gameMixer.SetFloat("effects", Mathf.Log10(volume) * 20);
+    }
 
 }

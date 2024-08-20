@@ -58,7 +58,7 @@ public class BossController : MonoBehaviour
     public void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        SoundManager.PlaySound(SoundType.BossExplosion, 0.1f);
+        SoundManager.PlaySound(SoundType.BossExplosion, 0.2f);
         GameManager.instance.endGame = true;
         Destroy(gameObject);
     }
