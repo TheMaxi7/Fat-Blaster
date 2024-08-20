@@ -49,6 +49,7 @@ public class Shooting : MonoBehaviour
             Bullet bulletIstantiated2 = Instantiate(bullet, muzzles[1].transform.position, Quaternion.Euler(0, 0, 90));
             muzzleFlashes[1].Play();
             bulletIstantiated2.bulletRb.AddForce(shootingDirectionMuzzle2 * bullet.shootingSpeed, ForceMode.Impulse);
+            SoundManager.PlaySound(SoundType.Shoot, 0.005f);
         }
 
     }

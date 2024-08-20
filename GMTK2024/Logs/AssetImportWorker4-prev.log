@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/david/Desktop/github/GMTK2024/GMTK2024
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49948
+Successfully changed project path to: C:/Users/david/Desktop/github/GMTK2024/GMTK2024
+C:/Users/david/Desktop/github/GMTK2024/GMTK2024
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21508] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2879853945 [EditorId] 2879853945 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21508] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2879853945 [EditorId] 2879853945 [Version] 1048832 [Id] WindowsEditor(7,PC-Altaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/david/Desktop/github/GMTK2024/GMTK2024/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   31.0.24033.1003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008317 seconds.
+- Loaded All Assemblies, in  0.317 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 391 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (501ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 1167ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 5581.
+Memory consumption went from 301.1 MB to 299.5 MB.
+Total: 3.817100 ms (FindLiveObjects: 0.493000 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.727600 ms  DeleteObjects: 0.436900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
+  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
+  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
+  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
+  custom:scripting/monoscript/fileName/CFX_Demo_RandomDir.cs: ac40046481e5c4f71b9d19df2c090925 -> 06fce4b0d835d8793ccf8307925e464f
+  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/CFX_AutoRotate.cs: 704550d6c90f80c0c0a640e1b58881fc -> 29ad931a1d3958d652aea68a430833eb
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
+  custom:scripting/monoscript/fileName/CFX_Demo_RotateCamera.cs: 4093981287d7c6100e9fe689f7c9411e -> 1b6c7bbcbc0a01f776aafda62612b729
+  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
+  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CFX_Demo_RandomDirectionTranslate.cs: 75d4f31f321036dbbddbce55c566cb67 -> f3ed0cf2733db0625fbd8f1b2e5732a8
+  custom:scripting/monoscript/fileName/CFX_AutoStopLoopedEffect.cs: 62ac9e0b32d469c4b76269bc70152315 -> 0a1116784d96426e30ae544ef0d48111
+  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
+  custom:scripting/monoscript/fileName/CFX_LightFlicker.cs: e564ab80493c94a7538621ec347e85c5 -> 68d31c481fc3a03ad17ef6d8f920624a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CFX_LightIntensityFade.cs: 2c0ab7605cddfd3eb20461d360619486 -> cdc33b13e94fac5095d515fc63c5bc75
+  custom:scripting/monoscript/fileName/Bloom.cs: f2c7feb6aaf2130b25386a198611defa -> 146d0b935dcc897951548a238c5d1399
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFX_Demo_New.cs: 463c4972e0b25fe0486ba1381fca40b4 -> dba252c62f1f1c3e3711b33eb25e495d
+  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
+  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
+  custom:scripting/monoscript/fileName/BloomEditor.cs: d84e730682ff0f23a034ee395150a01b -> 1eeab35d56f1e45a0ba12a9078a4b946
+  custom:scripting/monoscript/fileName/CFX_Demo_Translate.cs: de26e2b5a3c6cbaa3cca0e0576709ad7 -> c85e572516e08f311291871f16fd4e55
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFX_AutoDestructShuriken.cs: 36bf2f3a00d4f92e7516bb0c5ac5f44d -> 7d622660cad3b608810f352fdbc5d485
+========================================================================
+Received Import Request.
+  Time since last request: 4324.321544 seconds.
+  path: Assets/Grenade Sound FX/Grenade
+  artifactKey: Guid(33be40dd9a3573f4f8898e92e4daa835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade using Guid(33be40dd9a3573f4f8898e92e4daa835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657544e8da37e59d9afc76e06718c85c') in 0.002466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045794 seconds.
+  path: Assets/Grenade Sound FX/Grenade/Grenade1.wav
+  artifactKey: Guid(620dad4bb8e4b98429963b3bbe39c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade/Grenade1.wav using Guid(620dad4bb8e4b98429963b3bbe39c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2dee19206fe69364e97d6fe1463bff') in 0.074027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grenade Sound FX/Grenade/Grenade10.wav
+  artifactKey: Guid(bf119238edb04e142b3374cace8cdd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade/Grenade10.wav using Guid(bf119238edb04e142b3374cace8cdd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482be2f9b88f26540f20b177bc20437d') in 0.010164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grenade Sound FX/Grenade/Grenade5.wav
+  artifactKey: Guid(111ff2bd39332f44d89d14a3be9e6e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade/Grenade5.wav using Guid(111ff2bd39332f44d89d14a3be9e6e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c704c3344ff072ccdcee33ebad1df2a0') in 0.006564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Grenade Sound FX/Grenade/Grenade3.wav
+  artifactKey: Guid(8327bacc90a16a441903a18e8fe175b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade/Grenade3.wav using Guid(8327bacc90a16a441903a18e8fe175b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fca0201799bfb22f33a5cb8adcfcd18') in 0.007278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 69.922136 seconds.
+  path: Assets/Grenade Sound FX/Grenade/EnemiesExplosion.wav
+  artifactKey: Guid(d4aee29185389894b9cc0d8873904a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade/EnemiesExplosion.wav using Guid(d4aee29185389894b9cc0d8873904a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c3e77176470806d1ebb9361e58bd16') in 0.005755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.979627 seconds.
+  path: Assets/Grenade Sound FX/Grenade/BossExplosion.wav
+  artifactKey: Guid(8524588a69a4f3e40bb597b6221138f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grenade Sound FX/Grenade/BossExplosion.wav using Guid(8524588a69a4f3e40bb597b6221138f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada2fbd0adb8595635bfc8b4f4ab4783') in 0.006211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.747557 seconds.
+  path: Assets/8 Synthwave Tracks/Loops
+  artifactKey: Guid(c5abc391bdb7e6c49b40fa8f2c26fd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8 Synthwave Tracks/Loops using Guid(c5abc391bdb7e6c49b40fa8f2c26fd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7139f76c4d93a46fb30688b56b90348a') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043208 seconds.
+  path: Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 1 Loop.wav
+  artifactKey: Guid(eeae0f9732476ed419936a018c687f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 1 Loop.wav using Guid(eeae0f9732476ed419936a018c687f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b22bc5f78dcc29ad310ba1e64927d1') in 0.009505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 3 Loop.wav
+  artifactKey: Guid(49069720be65d494086de3db4e1b0a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 3 Loop.wav using Guid(49069720be65d494086de3db4e1b0a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8e91ce0b25dc3dcc1e98c248ba0455') in 0.007243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 6 Loop.wav
+  artifactKey: Guid(f831666427c2f624088edccb7cfe92ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 6 Loop.wav using Guid(f831666427c2f624088edccb7cfe92ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b42e3816ac89ee2acca806ae56a8676') in 0.009515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 5 Loop.wav
+  artifactKey: Guid(aa30146c7098fb0499d3ba41b284d6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8 Synthwave Tracks/Loops/Shooter Synthwave 5 Loop.wav using Guid(aa30146c7098fb0499d3ba41b284d6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce21f0c51320227dd6b079b3e888fe7') in 0.008042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public float bossTimer = 300;
     public GameObject boss;
     public Transform bossSpawnTransform;
-    private GameObject bossInstance;
+    public GameObject bossInstance;
     public bool bossSpawned = false;
     private void Awake()
     {
@@ -28,7 +28,10 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    void Start()
+    {
+        //SoundManager.PlaySound(SoundType.GameMusic, 0.1f);
+    }
     void Update()
     {
         bossTimer -= Time.deltaTime;
@@ -64,6 +67,7 @@ public class GameManager : MonoBehaviour
     void SpawnBoss()
     {
         bossInstance = Instantiate(boss, bossSpawnTransform.position, quaternion.identity);
+        SoundManager.PlaySound(SoundType.BossSpawn, 0.3f);
         bossInstance.GetComponent<BossController>().enemyMesh = bossInstance.GetComponent<MeshRenderer>();
         bossSpawned = true;
     }

@@ -22,12 +22,15 @@ public class PickUpController : MonoBehaviour
             switch (pickUpType)
             {
                 case type.Speedboost:
+                    SoundManager.PlaySound(SoundType.CarrotSFX, 0.1f);
                     PlayerManager.instance.IncreaseSpeed();
                     break;
                 case type.FatDecrease:
+                    SoundManager.PlaySound(SoundType.AppleSFX, 0.1f);
                     PlayerManager.instance.DecreaseFat(20);
                     break;
                 case type.FireRateIncrease:
+                    SoundManager.PlaySound(SoundType.TomatoSFX, 0.1f);
                     PlayerManager.instance.IncreaseFireRate();
                     break;
                 //case type.TimeSlow:

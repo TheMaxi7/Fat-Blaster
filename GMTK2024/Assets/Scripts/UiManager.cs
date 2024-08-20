@@ -12,20 +12,27 @@ public class UiManager : MonoBehaviour
     public GameObject fatBar;
     public GameObject bossTimer;
     public GameObject winPanel;
+    public GameObject bossHpBar;
+    public Image hpBossBar;
+
     private int minutes, seconds;
 
     void Update()
     {
-        BossTimer();
-
         if (GameManager.instance.bossSpawned)
-            bossTimer.SetActive(false);
+        {
+            UpdateBossBar();
+            bossHpBar.SetActive(true);
+        }
+
+        BossTimer();
         bossTimer.GetComponent<TextMeshProUGUI>().text = "MAD CUPCAKE IN " + minutes + ":" + seconds;
         if (GameManager.instance.gameOver == true)
         {
             gameOverScreen.SetActive(true);
             fatBar.SetActive(false);
             bossTimer.SetActive(false);
+            bossHpBar.SetActive(false);
         }
         else
         {
@@ -33,7 +40,10 @@ public class UiManager : MonoBehaviour
             {
                 gameOverScreen.SetActive(false);
                 fatBar.SetActive(true);
-                bossTimer.SetActive(true);
+                if (!GameManager.instance.bossSpawned)
+                    bossTimer.SetActive(true);
+                else
+                    bossTimer.SetActive(false);
             }
 
         }
@@ -56,6 +66,7 @@ public class UiManager : MonoBehaviour
             pauseGameScreen.SetActive(true);
             fatBar.SetActive(false);
             bossTimer.SetActive(false);
+            bossHpBar.SetActive(false);
         }
         else
         {
@@ -67,6 +78,7 @@ public class UiManager : MonoBehaviour
             StartCoroutine(ActivateWinPanel());
             fatBar.SetActive(false);
             bossTimer.SetActive(false);
+            bossHpBar.SetActive(false);
         }
         else
         {
@@ -87,5 +99,16 @@ public class UiManager : MonoBehaviour
         Time.timeScale = 0;
     }
 
+    private void UpdateBossBar()
+    {
+        if (GameManager.instance.bossInstance != null)
+        {
+            float startHp = GameManager.instance.bossInstance.GetComponent<BossController>().enemy.enemyHealth;
+            float hp = GameManager.instance.bossInstance.GetComponent<BossController>().enemyHealth;
+            float currentHp = hp / startHp;
+            hpBossBar.fillAmount = currentHp;
+        }
+
+    }
 
 }
